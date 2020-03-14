@@ -1,12 +1,19 @@
-Role Name
-=========
+ssh-server
+==========
 
-A brief description of the role goes here.
+Automated deployement of an hardened ssh server with sane defaults on multiple Linux distribution.
+
+Supported Platforms:
+- [ ] Centos
+- [ ] Debian
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+To setup your de environnement:
+```
+   make setup && source venv/bin/activate
+```
 
 Role Variables
 --------------
